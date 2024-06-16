@@ -1,0 +1,9 @@
+.wrap>div:nth-child(1){
+    float:inherit;
+}
+.wrap>div:nth-child(2){
+    float:left;
+}
+.wrap>div:nth-child(3){
+    float:right;
+}

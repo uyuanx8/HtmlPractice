@@ -1,0 +1,22 @@
+.wrap{
+    background-color: lightgray;
+    overflow: auto;
+    box-sizing: border-box;
+}
+.wrap>div{
+    background-color: #484848;
+}
+.wrap>div:nth-child(1){
+    float:left;
+}
+.wrap>div:nth-child(2){
+    float:left;
+}
+.wrap>div:nth-child(3){
+    float:left;
+}
+.foot{
+    background-color:gold;
+    margin: 10px;
+    clear:left;
+}

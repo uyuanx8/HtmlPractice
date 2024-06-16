@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @font-face {
+            font-family: 'Cafe24Ohsquareair';
+            src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2202@1.0/Cafe24Ohsquareair.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+    #block{
+        border:10px solid #acca4848;
+        height: 32px;
+    }
+    .wrap{
+        position:static;
+        border : 10px solid #48caac48;
+    }
+    .wrap>div{
+        width: 72px;
+        height: 72px;
+        border : 2px solid gray;
+        margin: 3px;
+        left:80px;
+        top:5px;
+        font-family: Cafe24Ohsquareair;
+    }
+    .wrap>div:nth-child(1){
+        position:static;
+        border-color:red;
+    }
+    .wrap>div:nth-child(2){
+        position:absolute;
+        border-color:darkgoldenrod;
+    }
+    .wrap>div:nth-child(3){
+        position:relative;
+        border-color:forestgreen;
+    }
+    .wrap>div:nth-child(4){
+        position:fixed;
+        border-color:dodgerblue;
+    }
+    .wrap>div:nth-child(5){
+        position:-webkit-sticky;
+        position:sticky;
+        border-color:mediumpurple;
+    }</style>
+</head>
+<body style="margin-top : 20px; margin-bottom: 1000px;">
+    <div id="block"></div>
+    <div class="wrap">
+    <div>static</div>
+    <div>absolute</div>
+    <div>relative</div>
+    <div>fixed</div>
+    <div>sticky</div>
+  </div>
+</body>
+</html>

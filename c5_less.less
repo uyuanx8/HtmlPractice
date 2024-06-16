@@ -1,0 +1,37 @@
+@naver_border : 3px solid #03c75a;
+@border_radius : 8px;
+@base_width : 400px;
+@base_height : 200px;
+@item_width : 200px;
+@link_color : #ACCA48;
+@text_color : #48CA72;
+
+@font-face {
+    font-family: 'Anemone';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2202@1.0/Cafe24Ohsquareair.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-family: Anemone;
+}
+.wrap{
+    width: @base_width;
+    height: @base_height;
+    border: @naver_border;
+    border-radius: @border_radius;
+    display:flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+}
+.content{
+    width: @item_width;
+    height: @base_height*0.72;
+    border : @naver_border;
+    border-radius : @border_radius;
+}
+.content>li{
+    color : @text_color;
+}

@@ -1,0 +1,22 @@
+.wrap {
+    position:relative; 
+  }
+  .box {
+    width:100px;height:100px;
+    background-color:slategray;
+    color:#fff;
+    border:#acca48 solid 3px;
+    border-radius: 10px;
+    text-align:center;
+    line-height:100px;
+    position:absolute;
+    top:0px;
+    left:0px;
+  }
+  
+  .box:nth-child(2){
+    transform:translateX(100px) translateY(30px) rotate(30deg);
+  }
+  .box:nth-child(3){
+    transform:translateX(200px) translateY(60px) rotate(60deg);
+  }

@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Anemone';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2202@1.0/Cafe24Ohsquareair.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.box{
+    font-family: Anemone;
+    width:100px;
+    height:100px;
+    transition:all 1s ease-in-out;
+    border: 3px solid #48CAAC;
+    background-color: slategray;
+    color:#48FFCA;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}

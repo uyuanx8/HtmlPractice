@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/oxygen/v15/2sDfZG1Wl4Lcnbu6iQ.ttf) format('truetype');
+  }
+
+.wrap{
+    z-index: 0;
+    position:absolute;
+    top:50px;
+}
+.parw{
+    z-index: 1;
+    position:absolute;
+    left:50px;
+}
+
+
+.wrap>div{
+    position:absolute;
+    width: 80px;
+    height: 80px;
+    border:3px solid slategray;
+    color: white;
+    padding: 2px;
+    font-family: Oxygen;
+    border-radius: 8px;
+}
+.wrap>div:nth-child(1){
+    top:10px;
+    left:10px;
+    background-color: #caac48;
+}
+.wrap>div:nth-child(2){
+    top:30px;
+    left:30px;
+    background-color: #48caac;
+    z-index:10;
+}
+.wrap>div:nth-child(3){
+    top:50px;
+    left:50px;
+    background-color: #ac48ca;
+}
+
+
+.parw>div{
+    position:absolute;
+    width: 80px;
+    height: 80px;
+    border:3px solid slategray;
+    color: white;
+    padding: 2px;
+    font-family: Oxygen;
+    border-radius: 8px;
+}
+.parw>div:nth-child(1){
+    top:10px;
+    left:10px;
+    background-color: #caac48;
+    z-index:1;
+}
+.parw>div:nth-child(2){
+    top:30px;
+    left:30px;
+    background-color: #48caac;
+    z-index: 2;
+}
+.parw>div:nth-child(3){
+    top:50px;
+    left:50px;
+    background-color: #ac48ca;
+    z-index:3;
+}

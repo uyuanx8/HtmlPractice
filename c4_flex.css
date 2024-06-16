@@ -1,0 +1,20 @@
+.wrap{
+    background-color: slategray;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+.wrap>div{
+    text-align: center;
+    background-color: #cae8ca;
+    font-size: 24px;
+    flex:1 0 48px;
+    margin: 3px;
+    border: 2px solid white;
+}
+.wrap>div:nth-child(1){
+    flex-grow:3;
+}
